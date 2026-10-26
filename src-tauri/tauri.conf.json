@@ -1,8 +1,8 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "tauri-app",
+  "productName": "PixelCraft",
   "version": "0.1.0",
-  "identifier": "com.offline.imageconverter",
+  "identifier": "com.pixelcraft.imageconverter",
   "build": {
     "beforeDevCommand": "npm run dev",
     "devUrl": "http://localhost:1420",
@@ -12,9 +12,11 @@
   "app": {
     "windows": [
       {
-        "title": "tauri-app",
-        "width": 800,
-        "height": 600
+        "title": "PixelCraft • Offline Image Converter & Compressor",
+        "width": 1120,
+        "height": 780,
+        "minWidth": 800,
+        "minHeight": 600
       }
     ],
     "security": {
